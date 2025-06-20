@@ -14,6 +14,7 @@ __all__ = [
     "ExternalTensor",
     "StringTensor",
     "LazyTensor",
+    "PackedTensor",
     "SymbolicDim",
     "Shape",
     "TensorType",
@@ -115,6 +116,7 @@ from onnx_ir._core import (
     Model,
     Node,
     OptionalType,
+    PackedTensor,
     RefAttr,
     SequenceType,
     Shape,
@@ -165,4 +167,4 @@ def __set_module() -> None:
 
 
 __set_module()
-__version__ = "0.1.2"
+__version__ = "0.1.3"
